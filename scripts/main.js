@@ -8,7 +8,8 @@ mc.system.events.beforeWatchdogTerminate.subscribe(event =>{
 
 mc.world.events.blockBreak.subscribe(event =>{
 
-    event.player.applyKnockback(1,1,2,2)
+    event.player.applyKnockback(1,1,1,1)
+    event.player.sendMessage("block broken")
 })
 
 mc.world.events.beforeChat.subscribe(event =>{
