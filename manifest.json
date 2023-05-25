@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Plugin",
+      "name": "Plugin",
+      "uuid": "fd375b0a-4bdd-4572-9268-e55a79cf99b4",
+      "version": [ 0, 0, 1 ],
+      "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+      {
+        "description": "Plugin",
+        "type": "script",
+        "language": "javascript",
+        "uuid": "0b235875-a72a-4f8f-b1ad-50f4659a58ad",
+        "version": [ 0, 0, 1 ],
+        "entry": "scripts/main.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.2.0-beta"
+      }
+    ]
+  }
