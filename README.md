@@ -1,1 +1,1 @@
-# SimpleScript-1.19.82
+# SimpleScript-1.19.83
