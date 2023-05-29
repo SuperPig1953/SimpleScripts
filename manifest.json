@@ -1,8 +1,8 @@
 {
     "format_version": 2,
     "header": {
-      "description": "Plugin",
-      "name": "Plugin",
+      "description": "Plugin Lab1",
+      "name": "Plugin Lab1",
       "uuid": "fd375b0a-4bdd-4572-9268-e55a79cf99b4",
       "version": [ 0, 0, 1 ],
       "min_engine_version": [ 1, 14, 0 ]
@@ -21,6 +21,10 @@
       {
         "module_name": "@minecraft/server",
         "version": "1.2.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.0.0-beta"
       }
     ]
   }
