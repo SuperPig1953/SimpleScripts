@@ -8,7 +8,7 @@ let fm = new ui.ActionFormData()
 .title("TITLE")
 .body("BODY OF FORM")
 .button("free diamond")//0
-.button("2")//1
+.button("broo Flyyyyy")//1
 .button("button 3")//2
 
 mc.world.events.itemUse.subscribe(event => {
@@ -21,6 +21,7 @@ mc.world.events.itemUse.subscribe(event => {
                 event.source.applyKnockback(0,0,1,1)
                 break
             case 2:
+                //code
                 break
         }
     })
